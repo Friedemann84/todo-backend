@@ -24,7 +24,9 @@ app.use(morgan('dev'));
 
 
 // routes
-
+app.get('/', (req, res, next) => {
+  res.send('bla bla juhu server')
+})
 
 
 
