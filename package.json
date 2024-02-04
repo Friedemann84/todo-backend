@@ -24,8 +24,8 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
-    "test": ""
+    "start": "node app.js",
+    "test": "nodemon app.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
